@@ -13,6 +13,16 @@ a {
   background-color: #4e47ff;
 }
 
+.custom-width {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section {
+  padding: 50px 0px;
+}
+
 .btn {
   background-color: #4e47ff;
   color: white;
@@ -41,9 +51,7 @@ header {
   flex-direction: column;
 }
 
-
 nav {
-  max-width: 1140px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -61,16 +69,39 @@ nav {
 
 /* Hero  */
 .hero {
-  flex: 1; 
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 0 20px; 
+  padding: 0 20px;
   max-width: 800px;
   margin: auto;
 }
-.hero h1{
-    margin: 10px 0px;
+.hero h1 {
+  margin: 10px 0px;
+}
+
+/* action section */
+
+.action {
+  margin: auto;
+  max-height: 328px;
+}
+.action-text {
+}
+.action-text h3 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.action-text p {
+  color: #25243280;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+.action-img {
+}
+.action-img img {
+  border-radius: 50px;
 }
