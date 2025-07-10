@@ -139,3 +139,68 @@ nav {
 .state-data p {
   font-size: 20px;
 }
+
+/* user section */
+.user-section {
+  background: rgb(245, 248, 255);
+}
+.user-title {
+}
+.user-title h3 {
+  font-size: 40px;
+  color: #252432;
+  text-align: center;
+  margin: 30px 0px;
+}
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 20px;
+  max-width: 1140px;
+  margin: auto;
+}
+.user-single-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.user-single-card:hover {
+  transform: translateY(-10px);
+}
+.user-single-card {
+}
+.rating {
+}
+.rating img {
+}
+.user-text-content {
+}
+.user-text-content h2 {
+  font-size: 25px;
+  color: #1e1e1e;
+  padding: 10px 0px;
+}
+.user-text-content h4 {
+  font-size: 16px;
+  color: #1e1e1e;
+  padding: 10px 0px;
+}
+.user-info-content {
+  display: flex;
+  align-items: center;
+}
+.user-profime-img {
+}
+.user-profime-img img {
+  border-radius: 20px;
+}
+.user-information {
+  margin-left: 10px;
+}
+.user-information h4 {
+}
+.user-information p {
+}
