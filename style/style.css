@@ -156,8 +156,7 @@ nav {
 .user-section {
   background: rgb(245, 248, 255);
 }
-.user-title {
-}
+
 .user-title h3 {
   font-size: 40px;
   color: #252432;
@@ -182,14 +181,7 @@ nav {
 .user-single-card:hover {
   transform: translateY(-10px);
 }
-.user-single-card {
-}
-.rating {
-}
-.rating img {
-}
-.user-text-content {
-}
+
 .user-text-content h2 {
   font-size: 25px;
   color: #1e1e1e;
@@ -204,17 +196,12 @@ nav {
   display: flex;
   align-items: center;
 }
-.user-profime-img {
-}
+
 .user-profime-img img {
   border-radius: 20px;
 }
 .user-information {
   margin-left: 10px;
-}
-.user-information h4 {
-}
-.user-information p {
 }
 
 /* focus section */
@@ -252,10 +239,7 @@ nav {
   font-size: 80px;
   font-weight: 700;
 }
-.contact-form {
-}
-.contact-form label {
-}
+
 .contact-form input,
 textarea {
   border-radius: 10px;
@@ -271,8 +255,7 @@ textarea {
 .contact-form textarea::placeholder {
   font-family: "Inter", sans-serif;
 }
-.contact-form textarea {
-}
+
 .contact-btn {
   width: 100%;
   margin: 10px 0px;
