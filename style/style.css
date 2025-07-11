@@ -1,3 +1,13 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
 /* common CSS */
 * {
   margin: 0;
@@ -21,6 +31,7 @@ a {
 }
 section {
   padding: 50px 0px;
+  background: rgb(245, 248, 255);
 }
 p {
   color: #25243280;
@@ -29,6 +40,7 @@ p {
   background-color: #4e47ff;
   color: white;
   border: none;
+  font-family: "Raleway", sans-serif;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
@@ -203,4 +215,27 @@ nav {
 .user-information h4 {
 }
 .user-information p {
+}
+
+/* focus section */
+.focus-container {
+  text-align: center;
+  max-width: 1140px;
+  margin: auto;
+  background: #fff;
+  border-radius: 40px;
+  padding: 20px;
+}
+.focus-container h2 {
+  font-size: 50px;
+}
+.focus-container p {
+  padding: 20px 0px;
+}
+
+.focus-img {
+  margin: 30px 0px;
+}
+.focus-img img {
+  border-radius: 50px;
 }
