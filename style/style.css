@@ -310,6 +310,10 @@ footer {
 }
 .footer-menu ul li a {
   color: #8987a1;
+  transition: all 0.3s ease-in-out;
+}
+.footer-menu ul li a:hover {
+  text-decoration: underline;
 }
 .footer-menu ul li {
   padding: 0 10px;
