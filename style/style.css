@@ -94,7 +94,7 @@ nav {
   margin: auto;
 }
 .hero h1 {
-  margin: 10px 0px;
+  margin: 40px 0px;
   font-size: 60px;
   color: #252432;
 }
@@ -114,7 +114,7 @@ nav {
 .action-text p {
   color: #25243280;
   font-size: 24px;
-  padding: 10px 0px;
+  padding: 25px 0px;
 }
 
 .action-img img {
@@ -135,6 +135,7 @@ nav {
   text-align: center;
   font-size: 40px;
   color: #252432;
+  padding: 45px 0px;
 }
 .state-data {
   max-width: 850px;
@@ -142,7 +143,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  padding: 20px;
+  padding: 50px;
 }
 .state-data h1 {
   font-size: 80px;
@@ -156,12 +157,13 @@ nav {
 .user-section {
   background: rgb(245, 248, 255);
 }
-
+.user-title {
+}
 .user-title h3 {
   font-size: 40px;
   color: #252432;
   text-align: center;
-  margin: 30px 0px;
+  margin: 50px 0px;
 }
 .user-cards {
   display: grid;
@@ -181,7 +183,15 @@ nav {
 .user-single-card:hover {
   transform: translateY(-10px);
 }
-
+.user-single-card {
+}
+.rating {
+  margin: 10px 0px;
+}
+.rating img {
+}
+.user-text-content {
+}
 .user-text-content h2 {
   font-size: 25px;
   color: #1e1e1e;
@@ -190,18 +200,23 @@ nav {
 .user-text-content h4 {
   font-size: 16px;
   color: #1e1e1e;
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 .user-info-content {
   display: flex;
   align-items: center;
 }
-
+.user-profime-img {
+}
 .user-profime-img img {
   border-radius: 20px;
 }
 .user-information {
   margin-left: 10px;
+}
+.user-information h4 {
+}
+.user-information p {
 }
 
 /* focus section */
@@ -215,6 +230,7 @@ nav {
 }
 .focus-container h2 {
   font-size: 50px;
+  padding: 70px 0px 0px 0px;
 }
 .focus-container p {
   padding: 20px 0px;
@@ -222,6 +238,7 @@ nav {
 
 .focus-img {
   margin: 30px 0px;
+  padding-bottom: 70px;
 }
 .focus-img img {
   border-radius: 50px;
@@ -236,15 +253,19 @@ nav {
   margin: auto;
 }
 .contact-title h2 {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 700;
 }
-
+.contact-form {
+  width: 40%;
+}
+.contact-form label {
+}
 .contact-form input,
 textarea {
   border-radius: 10px;
   border: none;
-  margin: 5px 0px;
+  margin: 10px 0px;
   border: 1px solid #d6dded;
   padding: 10px;
   width: 92%;
@@ -255,7 +276,8 @@ textarea {
 .contact-form textarea::placeholder {
   font-family: "Inter", sans-serif;
 }
-
+.contact-form textarea {
+}
 .contact-btn {
   width: 100%;
   margin: 10px 0px;
