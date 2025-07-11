@@ -277,3 +277,35 @@ textarea {
   width: 100%;
   margin: 10px 0px;
 }
+
+/* footer */
+footer {
+  padding: 50px;
+}
+.footer-logo {
+  font-size: 100px;
+  font-weight: 900;
+}
+footer p {
+  padding: 10px 0px;
+}
+
+footer {
+  text-align: center;
+}
+.footer-menu ul {
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-menu ul li a {
+  color: #8987a1;
+}
+.footer-menu ul li {
+  padding: 0 10px;
+}
